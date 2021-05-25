@@ -1,6 +1,6 @@
 {
   "name": "@seiue/react-native-echarts-wrapper",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "📈Powerful React-Native ECharts Wrapper 📊",
   "main": "src/index.js",
   "scripts": {
@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/tomLadder/react-native-echarts-wrapper#readme",
   "peerDependencies": {
-    "react": ">=0.13.2 || ^0.14 || ^15.0.0 || >=16.0.0",
+    "echarts": "^4.9.0",
     "prop-types": ">= 15.7.2",
-    "react-native-webview": ">= 5.0.1",
-    "echarts": "^4.9.0"
+    "react": ">=0.13.2 || ^0.14 || ^15.0.0 || >=16.0.0",
+    "react-native-webview": ">= 5.0.1"
   },
   "devDependencies": {
     "coveralls": "^3.0.3",

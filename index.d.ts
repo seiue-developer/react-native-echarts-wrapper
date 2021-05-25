@@ -4,8 +4,8 @@ import { EChartOption } from "echarts";
 export interface EChartsRef {
   setOption: (
     option: EChartOption,
-    notMerge: boolean,
-    lazyUpdate: boolean
+    notMerge?: boolean,
+    lazyUpdate?: boolean
   ) => void;
 
   getOption: (callback: (data: any) => void) => void;
